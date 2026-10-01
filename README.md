@@ -1,5 +1,5 @@
 # Codex-Desktop-App-Unable-to-Load-Organization-Settings-Error-on-Windows
-Error When launching the Codex desktop app, it shows: Unable to load organization settings  The app is paused until organization settings can be loaded securely. Network connection, proxy, or firewall issues may prevent access.  Please check your network connection and try again, or sign out and use another account.![Uploading 屏幕截图 2026-10-01 154046.png…]()
+Error When launching the Codex desktop app, it shows: Unable to load organization settings  The app is paused until organization settings can be loaded securely. Network connection, proxy, or firewall issues may prevent access.  Please check your network connection and try again, or sign out and use another account.
 
 Symptoms:
 - ChatGPT website works normally.
@@ -9,8 +9,7 @@ Symptoms:
 - The issue may happen after a crash, update, or abnormal shutdown.
 
 
-
-- Fix
+- How to fix
 Step 1 — Backup Codex data
 Open PowerShell:
 cd $HOME
