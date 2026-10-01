@@ -10,7 +10,7 @@ Symptoms:
 
 
 How to fix:
-Step 1 — Backup Codex data
+- Step 1 — Backup Codex data
 Open PowerShell:
 cd $HOME
 
