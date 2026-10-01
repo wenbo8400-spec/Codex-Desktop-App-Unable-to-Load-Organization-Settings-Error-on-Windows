@@ -27,7 +27,7 @@ Test-Path "$HOME\.codex.full_backup"
 Expected:
 True
 
-Step 2 — Close Codex completely
+- Step 2 — Close Codex completely
 Exit Codex.
 Check running processes:
 tasklist | findstr /i "codex openai chatgpt"
@@ -35,7 +35,7 @@ tasklist | findstr /i "codex openai chatgpt"
 If needed:
 taskkill /F /IM Codex.exe
 
-Step 3 — Rename the corrupted state folder
+- Step 3 — Rename the corrupted state folder
 Do not delete it.
 Rename:
 Rename-Item `
@@ -46,11 +46,11 @@ Result:
 C:\Users\<USERNAME>\.codex.backup
 
 Your original data is preserved.
-Step 4 — Start Codex again
+- Step 4 — Start Codex again
 Launch Codex.
 The app will:
 - create a fresh .codex folder;
 - initialize a clean state;
 - load organization settings;
 - allow login.
-The error should disappear.
+- The error should disappear.
