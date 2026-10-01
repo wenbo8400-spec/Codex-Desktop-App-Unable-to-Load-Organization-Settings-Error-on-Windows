@@ -9,7 +9,7 @@ Symptoms:
 - The issue may happen after a crash, update, or abnormal shutdown.
 
 
-- How to fix
+How to fix:
 Step 1 — Backup Codex data
 Open PowerShell:
 cd $HOME
